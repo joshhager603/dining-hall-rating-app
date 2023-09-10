@@ -1,4 +1,4 @@
-import { Outlet, Link } from "react-router-dom";
+import { Outlet } from "react-router-dom";
 import AppBar from '@mui/material/AppBar';
 import Box from '@mui/material/Box';
 import Toolbar from '@mui/material/Toolbar';
@@ -8,6 +8,7 @@ import { useNavigate } from "react-router-dom";
 
 const Layout = (props) => {
   let navigate = useNavigate();
+
   const home = () => {
     navigate("/");
   }

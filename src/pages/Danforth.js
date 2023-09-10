@@ -1,6 +1,12 @@
+import { Typography } from "@mui/material";
+import ReviewCard from "../components/ReviewCard";
+
 function Danforth() {
     return (
-      <h1>Danforth</h1>
+        <div>
+            <Typography variant="h2" mt={3}>Danforth Dining Center</Typography>
+            <ReviewCard></ReviewCard>
+        </div>
     );
   }
   
